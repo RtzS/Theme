@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo Theme</title>
+	<link href="./style/css" rel="stylesheet">
+	<link href="./style/font-awesome.min.css" rel="stylesheet"> 
+    <link href="./style/linearicons.css" rel="stylesheet">
+	<link href="./style/simple-line-icons.css" rel="stylesheet">
+	<link href="./style/ionicons.css" rel="stylesheet"> 
+	<link href="./style/fakeLoader.css" rel="stylesheet">
+	<link href="./style/bootstrap.min.css" rel="stylesheet"> 
+     <link href="./style/scoop-vertical.min.css" rel="stylesheet">
+    <link href="./style/jquery.mCustomScrollbar.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="./style/jquery.1.11.3.min.js.download"></script>
+	<script src="./style/fakeLoader.js.download"></script>
+	<script src="./style/bootstrap.min.js.download"></script>
+	<script src="./style/scoop.min.js.download"></script>
+	<script src="./style/demo-17.js.download"></script> 	 
+
+	<script src="./style/jquery.mCustomScrollbar.concat.min.js.download"></script> 
+	<script src="./style/jquery.mousewheel.min.js.download"></script> 
+	
+	<style>
+	   @media (max-width: 767px) {
+	.btn-breadcrumb { margin-left: 10px; margin-right: 10px; width: calc(100% - 20px) !important; }
+}
+
+.btn-breadcrumb{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 4px;
+	border: solid 1px #ccc;
+}
+.btn-breadcrumb .btn{
+	border-color: transparent; border: 0px solid transparent;
+	border-right: 1px solid transparent !important; 
+	font-size: 11px;
+}
+.breadcrumb-default{ background-color: #fff; }
+.btn-primary,.breadcrumb-primary{ background-color: #337ab7; }
+.btn-primary:hover{background-color: #286090;}
+
+.breadcrumb-success{ background-color: #5cb85c; }
+.breadcrumb-info{ background-color: #5bc0de; }
+.breadcrumb-warning{ background-color: #f0ad4e; }
+.breadcrumb-danger{ background-color: #d9534f; }
+.breadcrumb-negro{ background-color: #d4d4d4; }
+
+.btn-breadcrumb .btn:last-child {font-weight: bold; text-decoration: underline;}
+.btn-breadcrumb .btn:last-child:after{margin-left: -2px;}
+.btn-breadcrumb .btn:last-child:before{margin-left: -1px;}
+
+.btn-breadcrumb .btn-derecha{
+	float: right;
+	margin-right: 0px;
+	padding: 6px 10px 6px 10px !important;
+	margin-left: 0px !important;
+	border-radius: 0px !important; 
+}
+.btn-breadcrumb .btn-derecha:first-child { 
+	border-top-right-radius: 2px !important; 
+	border-bottom-right-radius: 2px !important; 
+}
+
+.btn-breadcrumb .btn-derecha:after, .btn-breadcrumb .btn-derecha:before{
+	content: none !important;
+}
+
+.btn-breadcrumb .btn:after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -14px;
+  margin-left: 0px;
+  left: 100%;
+  z-index: 3;
+}
+.btn-breadcrumb .btn:before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -14px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+	</style>
+<script> 
+	$(function() {
+		$("#fakeLoader").fakeLoader(); 
+	}); 
+</script>
+ 
+	</head>
+	<body themebg-pattern="pattern6" cz-shortcut-listen="true" style="-webkit-text-stroke: 0.05px; -webkit-font-smoothing: antialiased;">
+		<div id="fakeLoader" style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(41, 128, 185); z-index: 9999; display: none;"><div class="fl spinner1" style="position: absolute; left: 739.5px; top: 317px;"><div class="double-bounce1"></div><div class="double-bounce2"></div></div></div>
+		<div id="scoop" class="scoop iscollapsed" theme-layout="vertical" vertical-placement="left" vertical-layout="wide" scoop-device-type="desktop" vertical-nav-type="sub-expanded" vertical-effect="shrink" vnavigation-view="view1">
+			<div class="scoop-overlay-box"></div>
+			<div class="scoop-container">  
+				<header class="scoop-header iscollapsed" header-theme="theme2" scoop-header-position="relative">
+					<div class="scoop-wrapper"> 
+						<div class="scoop-left-header" lheader-theme="theme4" scoop-lheader-position="absolute"> 
+							<div class="scoop-logo"> 
+								<a href="#"><span class="logo-icon"><i class="ion-stats-bars"></i></span>
+								<span class="logo-text">Theme 1<span class="hide-in-smallsize"></span></span></a>
+							</div> 
+						</div>
+						<div class="scoop-right-header"> 
+							<div class="sidebar_toggle"><a href="javascript:void(0)"><i class="icon-menu"></i></a></div> 
+							<div class="scoop-rl-header"> 
+								<ul>
+									<li class="icons">
+										<a href="javascript:void(0)"><i class="fa fa-envelope" aria-hidden="true"></i>
+											<span class="scoop-badge badge-success">2</span>
+										</a>
+									</li>
+									<li class="icons">
+										<a href="javascript:void(0)"><i class="fa fa-bell" aria-hidden="true"></i>
+											<span class="scoop-badge badge-danger">8</span>
+										</a>
+									</li>
+									<li class="icons">
+										<a href="javascript:void(0)"><i class="fa fa-tasks" aria-hidden="true"></i>
+											<span class="scoop-badge badge-warning">8</span>
+										</a>
+									</li> 
+									<li class="icons hide-small-device">
+										<a href="javascript:void(0)">
+											<i class="fa fa-rss" aria-hidden="true"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="scoop-rr-header">
+								<ul>
+									<li class="icons">
+										<a href="javascript:void(0)">
+											<i class="fa fa-user" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li class="icons">
+										<a href="javascript:void(0)">
+											<i class="fa fa-sign-out" aria-hidden="true"></i>
+										</a>
+									</li> 
+								</ul>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="scoop-main-container" style="min-height: 624px; margin-top: 0px;">
+					<div class="scoop-wrapper">
+						<nav class="scoop-navbar" navbar-theme="theme4" active-item-theme="theme0" sub-item-theme="theme2" active-item-style="style0" scoop-navbar-position="absolute">  
+							<div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+							<div class="scoop-inner-navbar"> 
+								
+								 <ul class="scoop-item scoop-brand" item-border="true" item-border-style="solid" subitem-border="true">
+									<li class="active">
+										<a href="javascript:void(0)">
+											<span class="scoop-micon"><i class="icon-speedometer"></i></span>
+											<span class="scoop-mtext">DashBoard</span>
+											<span class="scoop-mcaret"></span>
+										</a>
+									</li>
+								</ul> 
+								<ul class="scoop-item scoop-left-item" item-border="true" item-border-style="solid" subitem-border="true">   
+									<li class="scoop-hasmenu" dropdown-icon="style1" subitem-icon="style6">
+										<a href="javascript:void(0)">
+											<span class="scoop-micon"><i class="icon-puzzle"></i></span>
+											<span class="scoop-mtext">Components</span>
+											<span class="scoop-badge badge-success">2</span>
+											<span class="scoop-mcaret"></span>
+										</a>
+										<ul class="scoop-submenu">
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Date &amp; Time Pickers</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Color Pickers</span>
+													<span class="scoop-badge badge-warning">New</span>
+													<span class="scoop-mcaret"></span>
+												</a> 	
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Bootstrap Select</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Bootstrap switch</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Bootstrap file Input</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Bootstrap TouchSpin</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Code Editor</span>
+													<span class="scoop-badge badge-danger">New</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Bootstrap Icons</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">WYSIWYG Editor</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Form Widgets &amp; Tools</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-link"></i></span>
+													<span class="scoop-mtext">Context Menu</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li> 
+											 
+										</ul>
+									</li> 
+									<li class="scoop-hasmenu" dropdown-icon="style1" subitem-icon="style6">
+										<a href="javascript:void(0)">
+											<span class="scoop-micon"><i class="icon-diamond"></i></span>
+											<span class="scoop-mtext">UI Features</span>
+											<span class="scoop-mcaret"></span>
+										</a>
+										<ul class="scoop-submenu">
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-mustache"></i></span>
+													<span class="scoop-mtext">Color Library</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-mustache"></i></span>
+													<span class="scoop-mtext">Scoop Grid System</span>
+													<span class="scoop-mcaret"></span>
+												</a> 	
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-mustache"></i></span>
+													<span class="scoop-mtext">General Components</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-mustache"></i></span>
+													<span class="scoop-mtext">Buttons</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-mustache"></i></span>
+													<span class="scoop-mtext">Spinner Buttons</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-mustache"></i></span>
+													<span class="scoop-mtext">Font Icons</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-mustache"></i></span>
+													<span class="scoop-mtext">Social Icons</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li> 
+											 
+										</ul>
+									</li>
+										<a href="javascript:void(0)">
+											<span class="scoop-micon"><i class="icon-wallet"></i></span>
+											<span class="scoop-mtext">Portlets</span>
+											<span class="scoop-mcaret"></span>
+										</a>
+										<ul class="scoop-submenu">
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-wallet"></i></span>
+													<span class="scoop-mtext">Boxed Portlets</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-wallet"></i></span>
+													<span class="scoop-mtext">Light Portlets</span>
+													<span class="scoop-mcaret"></span>
+												</a> 	
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-wallet"></i></span>
+													<span class="scoop-mtext">Solid Portlets</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-wallet"></i></span>
+													<span class="scoop-mtext">Ajax Portlets</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>
+											<li class="">
+												<a href="javascript:void(0)">
+													<span class="scoop-micon"><i class="icon-wallet"></i></span>
+													<span class="scoop-mtext">Draggable Portlets</span>
+													<span class="scoop-mcaret"></span>
+												</a> 
+											</li>  
+										</ul>
+									</li> 
+								</ul> 
+							</div> 
+						</nav> 
+						<div class="scoop-content"> 
+							<div class="scoop-inner-content">
+							    <div class="row">
+        <div class="btn-group btn-breadcrumb breadcrumb-default">
+            <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+           
+            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Snippets</a>
+            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Breadcrumbs text</a>
+            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Section</a>
+            <a href="#" class="btn btn-default visible-lg-block visible-md-block">Category</a>
+           
+        </div>
+	</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h3 class="panel-title">
+													Panel title
+												</h3>
+											</div>
+											<div class="panel-body">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+											</div>
+											<div class="panel-footer">
+												Panel footer
+											</div>
+										</div>
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h3 class="panel-title">
+													Panel title
+												</h3>
+											</div>
+											<div class="panel-body">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+											</div>
+											<div class="panel-footer">
+												Panel footer
+											</div>
+										</div> 
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h3 class="panel-title">
+													Panel title
+												</h3>
+											</div>
+											<div class="panel-body">
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+											</div>
+											<div class="panel-footer">
+												Panel footer
+											</div>
+										</div> 
+									</div>
+								</div>
+								
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+	
+</body></html>
